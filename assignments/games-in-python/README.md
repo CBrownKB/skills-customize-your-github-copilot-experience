@@ -1,47 +1,48 @@
 
----
-title: Hangman Game Challenge
-level: Beginner
-objectives:
-	- Practice string manipulation, loops, and conditionals in Python
-	- Use random selection to enhance gameplay
-	- Develop user input handling and game logic
----
+# 📘 Assignment: Hangman Game
 
-# 🎮 Hangman Game Challenge
+## 🎯 Objective
 
-Welcome to the Hangman Game coding challenge! In this assignment, you'll build a classic word-guessing game using Python. This project will help you strengthen your skills with strings, loops, conditionals, and user input—all while having fun.
+Build a classic Hangman word-guessing game in Python. Practice string manipulation, loops, conditionals, and user input while creating an interactive game experience.
 
-## Learning Objectives
+## 📝 Tasks
 
-- Understand how to manipulate strings and lists in Python
-- Practice using loops and conditionals to control program flow
-- Learn to select random items from a list
-- Gain experience with user input and feedback
+### 🛠️ Game Setup
 
-## Assignment Overview
+#### Description
+Create the basic structure for your Hangman game. Define a list of possible words and set up the variables needed to track the game state.
 
-You will create a Hangman game where the player tries to guess a hidden word, one letter at a time. The game ends when the player either successfully guesses the word or runs out of attempts.
+#### Requirements
+Completed program should:
 
-## Requirements
+- Define a list of at least 5 possible words
+- Randomly select one word for the player to guess
+- Initialize variables to track guessed letters and remaining attempts
 
-Your game should:
+### 🛠️ Gameplay Loop
 
-- Randomly select a word from a predefined list
-- Accept single-letter guesses from the player
+#### Description
+Implement the main game loop where the player guesses letters, and the game updates and displays progress.
+
+#### Requirements
+Completed program should:
+
+- Prompt the player to guess one letter at a time
 - Display the current progress (e.g., _ _ a _ _ _)
 - Track and display the number of incorrect guesses remaining
-- End the game with a win or lose message
+- Prevent repeated guesses from counting against the player
 
-## Starter Code
+### 🛠️ Game End
 
-You can use the provided `starter-code.py` file to help you get started. Feel free to modify and expand it as needed.
+#### Description
+Handle the end of the game, displaying a win or lose message and revealing the word if necessary.
 
-## Tips for Success
+#### Requirements
+Completed program should:
 
-- Use clear variable names and comments to explain your code
-- Test your game with different words and edge cases
-- Have fun and be creative with your messages and word list!
+- End the game when the word is fully guessed or attempts run out
+- Display a congratulatory message if the player wins
+- Display a message and reveal the word if the player loses
 
 ---
-If you have questions or get stuck, ask your teacher or classmates for help. Good luck!
+You can use the provided `starter-code.py` file to help you get started. If you have questions or get stuck, ask your teacher or classmates for help. Good luck!
